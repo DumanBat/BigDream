@@ -1,6 +1,7 @@
 using BigDream.Data;
 using BigDream.Utils;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 namespace BigDream.Scenarios
 {
@@ -17,7 +18,7 @@ namespace BigDream.Scenarios
         [SerializeField]
         private string _sceneName;
         [SerializeField]
-        private GameObject _scenarioPrefab;
+        private AssetReference _scenarioPrefab;
         [SerializeField]
         private ScenarioSceneMediator _scenarioSceneMediatorPrefab;
         [SerializeField]
@@ -25,7 +26,7 @@ namespace BigDream.Scenarios
 
         public string ScenarioName => _scenarioName;
         public string SceneName => _sceneName;
-        public GameObject ScenarioPrefab => _scenarioPrefab;
+        public AssetReference ScenarioPrefab => _scenarioPrefab;
         public ScenarioSceneMediator ScenarioSceneMediatorPrefab => _scenarioSceneMediatorPrefab;
         public ScenarioJsonData[] ScenariosJsonData => _scenariosJsonData;
     }

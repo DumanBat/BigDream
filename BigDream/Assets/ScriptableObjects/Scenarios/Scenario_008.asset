@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: Scenario_008
   m_EditorClassIdentifier: 
   scenarioId: fac20615-bcc6-40b7-bbf5-a9cfc5669159
-  _scenarioName: 
-  _sceneName: 
-  _scenarioPrefab: {fileID: 0}
+  _scenarioName: Scenario 008
+  _sceneName: Scene_003
+  _scenarioPrefab:
+    m_AssetGUID: f5f37c0c5f29d6d41a8cad17e36294bd
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  _scenarioSceneMediatorPrefab: {fileID: 3017232523298459736, guid: 9c1e1c9f252e9424ba20c85664081439,
+    type: 3}
   _scenariosJsonData: []

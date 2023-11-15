@@ -1,4 +1,5 @@
 using BigDream.App;
+using BigDream.Utils;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -56,7 +57,10 @@ namespace BigDream.Scenarios
 
         private void LoadEnvironment(ScenarioConfig config)
         {
-            var scenarioEnvironment = Instantiate(config.ScenarioPrefab);
+            LocalAssetProvider.GetOrLoadAssetAsync(config.ScenarioPrefab).Completed += (go) =>
+            {
+                var scenarioPrefab = Instantiate(go.Result);
+            };
         }
 
         public void LoadScene(string sceneName)

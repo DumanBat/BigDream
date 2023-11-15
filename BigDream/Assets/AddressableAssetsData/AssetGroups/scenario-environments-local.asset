@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: scenario-environments-local
+  m_EditorClassIdentifier: 
+  m_GroupName: scenario-environments-local
+  m_Data:
+    m_SerializedData: []
+  m_GUID: eacf5df06aafaf546adaef2cbfb800c3
+  m_SerializeEntries:
+  - m_GUID: 3ebcca7be4c815348895d36f53d7e504
+    m_Address: Assets/Prefabs/Scenario/ScenarioEnvironments/Scenario_001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da4c76285a977d345ab4fd6730c5e7da
+    m_Address: Assets/Prefabs/Scenario/ScenarioEnvironments/Scenario_001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5f37c0c5f29d6d41a8cad17e36294bd
+    m_Address: Assets/Prefabs/Scenario/ScenarioEnvironments/Scenario_002.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 5148fcb4b1484bc45bcf293be6eaa698, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 49bb91c033287804286ce30370a93a96, type: 2}
+    - {fileID: 11400000, guid: 206b7cca1e53cba48ba76704bf387ab8, type: 2}
