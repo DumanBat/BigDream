@@ -13,7 +13,19 @@ MonoBehaviour:
   m_Name: Scenario_000
   m_EditorClassIdentifier: 
   scenarioId: 2a3c94c3-0133-4fed-9226-01616a81a379
-  _scenarioName: 
-  _sceneName: 
-  _scenarioPrefab: {fileID: 0}
-  _scenariosJsonData: []
+  _scenarioName: skibidi
+  _sceneName: Scene_001
+  _scenarioPrefab: {fileID: 5292137005903697876, guid: 3ebcca7be4c815348895d36f53d7e504,
+    type: 3}
+  _scenarioSceneMediatorPrefab: {fileID: 3017232523298459736, guid: 9c1e1c9f252e9424ba20c85664081439,
+    type: 3}
+  _scenariosJsonData:
+  - dataOne: 343
+    dataTwo: "\u0443\u0440\u0443\u0435\u0440\u0443\u0435\u0440\u0443\u0435\u0440\u0443\u0435"
+    dataThree: 
+  - dataOne: 444
+    dataTwo: "\u0443\u0440\u0443\u0440\u0443\u0435\u0440\u0443"
+    dataThree: 
+  - dataOne: 13241
+    dataTwo: "\u043F\u0443\u0440\u0443\u0435\u0440\u0443\u0435\u0440\u0440"
+    dataThree: 

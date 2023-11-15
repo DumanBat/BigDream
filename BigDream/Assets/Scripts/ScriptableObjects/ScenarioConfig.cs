@@ -19,11 +19,14 @@ namespace BigDream.Scenarios
         [SerializeField]
         private GameObject _scenarioPrefab;
         [SerializeField]
+        private ScenarioSceneMediator _scenarioSceneMediatorPrefab;
+        [SerializeField]
         private ScenarioJsonData[] _scenariosJsonData;
 
         public string ScenarioName => _scenarioName;
         public string SceneName => _sceneName;
         public GameObject ScenarioPrefab => _scenarioPrefab;
+        public ScenarioSceneMediator ScenarioSceneMediatorPrefab => _scenarioSceneMediatorPrefab;
         public ScenarioJsonData[] ScenariosJsonData => _scenariosJsonData;
     }
 }

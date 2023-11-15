@@ -10,7 +10,10 @@ namespace BigDream.Data
     {
         [SerializeField]
         private ScenarioConfig[] _scenarios;
+        [SerializeField]
+        private string[] _sceneNames;
 
         public ScenarioConfig[] Scenarios => _scenarios;
+        public string[] SceneNames => _sceneNames;
     }
 }

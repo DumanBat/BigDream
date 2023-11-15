@@ -43,7 +43,9 @@ namespace BigDream.Scenarios
                     Debug.LogWarning("Scenario is not selected");
                     return;
                 }
+
                 _scenarioLoader.LoadScenario(_selectedScenario);
+                SetActivePanel(false);
             });
         }
 
