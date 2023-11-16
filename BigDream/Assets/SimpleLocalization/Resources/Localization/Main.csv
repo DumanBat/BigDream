@@ -1,0 +1,11 @@
+Key,English,Kazakh,Russian
+Lang,English,Қазақ,Русский
+LangShortKey,En,Kz,Ru
+SelectLanguage,Select Language,Тілді таңдаңыз,Выберите язык
+MainMenu.SelectScenario,Select Scenario,Сценарий таңдау,Выбрать сценарий
+MainMenu.Exit,Exit,Шығу,Выйти
+ScenarioSelection.Start,Start,Баста,Начать
+ScenarioSelection.Scene,Scene:,Көрініс:,Сцена:
+ScenarioData.ItemsCount,Items Count:,Саны:,Количество:
+ScenarioMenu.BackToMenu,Back To Menu,Мәзірге оралу,Вернуться в меню
+ScenarioMenu.SelectScenario,Select Scenario,Сценарий таңдау,Выбрать сценарий

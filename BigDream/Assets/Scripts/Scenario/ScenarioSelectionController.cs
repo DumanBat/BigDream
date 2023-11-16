@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace BigDream.Scenarios
 {
@@ -15,6 +16,8 @@ namespace BigDream.Scenarios
         [Space]
         [SerializeField]
         private Transform _canvas;
+        [SerializeField]
+        private TextMeshProUGUI _selectedScenarioNameDisplay;
         [SerializeField]
         private Button _closePanelButton;
         [SerializeField]
@@ -67,6 +70,7 @@ namespace BigDream.Scenarios
 
         private void SelectScenario(bool isSelected, ScenarioConfig config)
         {
+            _selectedScenarioNameDisplay.text = isSelected ? config.ScenarioName : "";
             _selectedScenario = isSelected ? config : null;
         }
 

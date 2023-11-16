@@ -15,6 +15,7 @@ MonoBehaviour:
   scenarioId: e7b8bbda-3826-4801-96a7-72c2c5c39777
   _scenarioName: Scenario 003
   _sceneName: Scene_001
+  _tableName: Table 003
   _scenarioPrefab:
     m_AssetGUID: f5f37c0c5f29d6d41a8cad17e36294bd
     m_SubObjectName: 

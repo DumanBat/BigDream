@@ -18,6 +18,8 @@ namespace BigDream.Scenarios
         [SerializeField]
         private string _sceneName;
         [SerializeField]
+        private string _tableName;
+        [SerializeField]
         private AssetReference _scenarioPrefab;
         [SerializeField]
         private ScenarioSceneMediator _scenarioSceneMediatorPrefab;
@@ -26,6 +28,7 @@ namespace BigDream.Scenarios
 
         public string ScenarioName => _scenarioName;
         public string SceneName => _sceneName;
+        public string TableName => _tableName;
         public AssetReference ScenarioPrefab => _scenarioPrefab;
         public ScenarioSceneMediator ScenarioSceneMediatorPrefab => _scenarioSceneMediatorPrefab;
         public ScenarioJsonData[] ScenariosJsonData => _scenariosJsonData;

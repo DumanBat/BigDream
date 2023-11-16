@@ -22,6 +22,7 @@ namespace BigDream.Scenarios
 
         public void Init(ScenarioConfig config)
         {
+            _tableName.text = config.TableName;
             _itemsCount.text = config.ScenariosJsonData.Length.ToString();
 
             foreach (var dataElement in config.ScenariosJsonData)

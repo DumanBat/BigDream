@@ -6,7 +6,7 @@ using UnityEngine;
 namespace BigDream.Data
 {
     [Serializable]
-    public class ScenarioJsonData : JsonData
+    public class ScenarioJsonData
     {
         public string dataOne;
         public string dataTwo;
